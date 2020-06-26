@@ -6,4 +6,18 @@ function alienLanguage(str){
     
     
     console.log(alienLanguage("Ion kno nun bout vituh ohteez i wunt eem knowem froma baguh whiterice"))
-                
+
+
+
+function truncateString(str, num) {
+  let dots =  "..."
+  let string = ""
+      
+  if(str.length <= num){
+  return str.split("")
+  
+}
+}
+
+truncateString("A-tisket a-tasket A green and yellow basket", 8);
+    
